@@ -1,0 +1,201 @@
+
+
+
+
+.container h2{
+    text-align: center;
+
+}
+
+
+
+
+
+.ensino {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+flex-wrap: wrap;
+
+}
+
+
+.infantil-1{
+     order: 0;
+}
+
+
+
+.fundamental-1{
+order: 1;
+
+}
+
+
+.fundamental-2{
+order: 2;
+
+}
+
+
+.medio{
+order: 3;
+
+
+}
+
+
+.oficinas{
+order: 4;
+
+}
+
+.infantil-1 , .fundamental-1 , .fundamental-2 , .medio , .oficinas{
+  position: relative;
+  margin: 5% auto;
+  width: 450px;
+  height: 281px;
+ 
+ 
+}
+
+
+.infantil-1:hover  #f1_card {
+  transform: rotateY(180deg);
+  box-shadow: -5px 5px 5px rgb(248, 93, 93);
+}
+
+.fundamental-1:hover #f1_card{
+transform: rotateY(180deg);
+  box-shadow: -5px 5px 5px rgb(248, 93, 93);
+}
+
+.fundamental-2:hover #f1_card{
+transform: rotateY(180deg);
+  box-shadow: -5px 5px 5px rgb(248, 93, 93);
+}
+
+.medio:hover #f1_card{
+transform: rotateY(180deg);
+  box-shadow: -5px 5px 5px rgb(248, 93, 93);
+}
+
+.oficinas:hover #f1_card{
+transform: rotateY(180deg);
+  box-shadow: -5px 5px 5px rgb(248, 93, 93);
+}
+
+
+
+/* FORMULARIO DE AGENDAMENTO */
+
+.form-contact{
+max-width: 100%;
+width: 55%;
+height: auto;
+padding: 0px 5px;
+margin: 10% auto;
+background-color:rgba(240, 237, 88, 0.5);
+border-radius: 5px;
+border-style: inset;
+border-width: 1px;
+border-color:red;
+
+}
+
+.contato{
+max-width: 100%;
+margin: 30px 10px;
+padding: 0;
+width: auto;
+height: auto;
+}
+
+.container h2{
+    text-align: center;
+
+}
+
+
+.contato .fields input , select{
+background:#fff;
+	border:solid 1px #333;
+	color:#000;
+    padding:10px 2px;
+    width: 315px;
+    border-radius: 4px;
+	margin-right:5%;
+    margin-bottom:30px;
+    font-size: 15px;
+    font-family: Nixie one;
+    font-weight: bold;
+}
+
+.contato input:focus{
+background-color: rgba(236, 178, 178, 0.801);
+
+}
+
+.contato ::placeholder{
+    font-size: 12px;
+    font-family: Nixie one;
+    font-weight: bold;
+    
+
+}
+
+
+
+.contato #submit{
+    	background:rgba(243, 37, 37, 0.521);
+	font-family:Pompiere;
+	color:#fff;
+	font-size:18px;
+	text-align:center;
+	margin:20px 100px;
+  border-style: inset ;
+  border-color: #000;
+    border-radius:2px;
+    padding: 7px 30px;
+    
+}
+
+
+.contato #submit:hover {
+	background:#cc590c71;
+}
+
+
+.container .vertical{
+    margin:15px 10px;
+
+}
+
+.form-contact i{
+
+	color: #160b0b;
+	font-size: 28px;
+	width: 43px;
+  height: 42px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+  margin: 5px 5px;
+
+}
+
+
+
+.form-contact p{
+  letter-spacing: 1px;
+	display: inline-block;
+	color: black;
+	margin:0 10px;
+	font-size:18px;
+    font-family: Nixie one ;
+    font-weight: bold;
+
+
+}
+
+

@@ -1,0 +1,222 @@
+.form-contact{
+max-width: 100%;
+width: 70%;
+height: auto;
+padding: 0px 5px;
+margin: 10% auto;
+display:grid;
+grid-template-columns:repeat(11, 1fr);
+grid-auto-rows: minmax(100 px, auto);
+max-width: 100%;
+height: auto;
+background-color:rgba(240, 237, 88, 0.5);
+border-radius: 5px;
+border-style: inset;
+border-width: 1px;
+border-color:red;
+}
+
+.contato{
+max-width: 100%;
+margin: 30px 10px;
+padding: 0;
+width: auto;
+height: auto;
+grid-column:1/6;
+}
+
+.container h2{
+    text-align: center;
+        grid-column:4/8;
+
+}
+
+
+.contato .fields input , select{
+background:#fff;
+	border:solid 1px #333;
+	color:#000;
+    border-radius: 4px;
+	margin-right:3%;
+    margin-bottom:30px;
+    font-size: 15px;
+    font-family: Nixie one;
+	font-weight: bold;
+	background:#fff;
+	border:solid 1px #333;
+	color:#000;
+    padding:10px 2px;
+    width: 185px;
+    border-radius: 4px;
+  
+}
+
+.contato input:focus{
+background-color: rgba(252, 241, 241, 0.781);
+
+}
+
+.contato ::placeholder{
+    font-size: 14px;
+    font-family: Nixie one;
+    font-weight: bold;
+    
+
+}
+
+
+
+.contato #submit{
+    	background:rgba(243, 37, 37, 0.521);
+	font-family:Nixie one;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+	margin:20px 180px;
+  border-style: inset 1px solid;
+  border-color: #000;
+    border-radius:4px;
+    padding: 8px 25px;
+    
+}
+
+
+.contato #submit:hover {
+	background:#cc590c71;
+}
+
+
+.container .vertical{
+    margin:0px 0px;
+        grid-column:6/14;
+
+}
+
+.container .vertical i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 43px;
+	height: 42px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 35px 50px;
+    vertical-align: middle;
+
+}
+
+
+
+.container .vertical p{
+	display: inline-block;
+	color: black;
+	vertical-align: middle;
+	margin:0;
+	font-size:16px;
+    font-family: Nixie one;
+    font-weight: bold;
+
+
+}
+
+.container .vertical p span{
+	display:block;
+    font-weight: bold;
+    font-family: Nixie one;
+	font-size:16px;
+    line-height:2;
+    color: black;
+	
+}
+
+.container .vertical p a{
+	color:  black;
+	text-decoration: none;
+	
+}
+
+
+h3{
+	text-align: center;
+}
+.feedback{
+    width: 100%;
+    height: auto;
+    background:rgba(180, 183, 240, 0.404);
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.feedback>*{
+flex-wrap: wrap;
+margin: 2% 0%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.feedback img{
+
+    width: 370px;   
+    margin-left: 10px;
+    margin-right: 0px;
+    height: 260px;
+    border-width: 2px;
+    border-radius: 2%;
+    margin-top: 5px;
+    padding: 3px 1px;
+    outline: 1px solid rgba(15, 15, 15, 0.712);
+	outline-offset: -15px;
+	justify-content: left;
+
+
+}
+
+
+
+.comits>*{
+    width: 100%;
+	margin: 0% 0%;
+	padding: 2% 0%;
+   
+}
+
+
+
+ .comits p {
+  letter-spacing: 1px;
+    margin:0% 0%;
+    text-align: right;
+	padding:10px 10px;
+	position:relative;
+	font-family: Pompiere;
+	font-size:25px;
+	border:0;
+	justify-content: right;
+	color: #000;
+
+    
+}
+
+
+
+.comits cite {
+	color:#cc580c;
+	display:block;
+	margin-top:5px;
+    text-align:right;
+    font-size: 20px;
+    font-weight: bold;
+}
+.comits cite:before {
+    content: "\2014 \2009";
+    
+}

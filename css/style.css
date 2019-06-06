@@ -1,0 +1,515 @@
+*{
+  	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+body{
+background-color: transparent;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+h1{
+font-family: 'Glass Antiqua', cursive;
+font-size: 60px;
+text-align: center;
+padding: 5% 10%;
+}
+
+h2 {
+font-family: Nixie One;
+font-size: 26px; 
+text-align: center;
+margin: 15px 0px;
+}
+
+h3{
+font-family: Pompiere;
+font-size: 18px;
+letter-spacing: 1px;
+}
+
+hr { 
+  display: block; 
+  height: 1px;
+    border: 0; 
+    border-top: 1px solid rgb(121, 56, 56);
+    padding: 0; 
+  }
+
+
+
+/* MENU */
+.navbar {
+position: fixed;
+top: 0;
+width: 100%;
+list-style: none;
+  margin:0px 0px;
+  padding: 10px;
+   border-bottom: 1px solid gold;
+    border-top: 1px solid gold;
+   background-color: black;
+   
+
+  
+}
+.navbar img{
+  width: 5%;
+  height: auto;
+}
+.navbar ul{
+  
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+
+
+}
+.navbar ul li {
+    float: left;
+    margin-left:0px;
+    padding: 0 0px;
+
+}
+
+
+
+.navbar ul li a{
+color: aliceblue;
+font-family: 'Tulpen One', cursive;
+font-size: 30px;
+text-decoration: none;
+padding: 0px 20px;
+letter-spacing: 1px;
+}
+.navbar ul li a:hover{
+color: #c8ec8e;
+}
+
+
+
+
+.navbar ul ul {
+position: absolute;
+ background-color: rgba(237, 237, 241, 0.548);
+ margin: 0px 0px;
+ padding: 0px 0px;
+  border-radius: 4%;
+    border-left: black 1px solid;
+        border-right: black 1px solid;
+
+
+
+
+
+}
+
+.navbar ul li ul{
+  display: none;
+}
+
+.navbar ul ul li{
+    float: none;
+display: block;
+text-align: left;
+position: relative;
+margin: 10px 0px;  
+
+
+}
+
+.navbar ul ul li a{
+  color: black;
+
+}
+
+.navbar ul li:hover>ul{
+    display: block;
+}
+
+
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    float: none;
+    display: inline-block;
+  }
+}
+/* LOGO DA HOME */
+#logo img{
+  width: 28%;
+       margin-left: auto;
+       margin-right: auto;
+       display: block;
+       margin-top: 6%;
+}
+
+
+/* DESCRIÇÃO DA PAGINA */
+
+.description{
+    border-top: outset rgba(243, 63, 31, 0.76);
+    border-bottom: outset rgba(245, 241, 10, 0.705);
+;
+border-width: 5px;
+ font-family: Pompiere;
+ font-size: 22px;
+ text-align: center;
+ background: linear-gradient(25deg, #fd9ccd, #f5f5e5, #ddebdd,#f5f5e5, #ecd5d5,  #fd9ccd); 
+position: relative;
+	margin: 10% 0%;
+	width: 100%;
+  height: auto;
+  
+}
+
+
+.description .fa{
+border-radius: 50%;
+max-width: 100%;
+width: auto;
+height: auto;
+      list-style: none;
+    padding: 7px 12px ;
+    font-size:40px;
+    text-align: center;
+    color:rgb(34, 33, 33);
+    font-weight:2 bold;
+    -webkit-animation-duration: 2s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: scroll;
+  animation-name: scroll;
+
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+	}
+  100% {
+    -webkit-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    transform: translateY(10px);
+	}
+}
+
+
+.description p{
+text-justify: auto;
+ font-family: Pompiere;
+ font-size: 22px;
+ text-align: center;
+ padding: 5px 10px;
+ margin: 20px 0%;
+ 
+
+
+}
+/*  Descrição pagina home*/
+
+
+
+.description-home {
+	position: relative;
+	margin: 6% 0%;
+	width: 100%;
+	height: auto;
+  background: linear-gradient(100deg, #d4cfcf , #ecd5d5 ,#ced1c6, #f5f5e5 , #e2e9d8 , #ddebdd , #ced3c7);
+  border-bottom: inset;
+  border-top: inset;
+  border-width: 2px;
+  border-color: rgba(0, 0, 0, 0.705);
+}
+
+.description-home h2{
+  margin: 2% 0;
+  padding: 10px 10px;
+}
+
+.description-home:before, .description-home:after {
+	content: '';
+	position: absolute;
+	left: -0px;
+	top: 0px;
+	background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+		#0000ff, #00ff00,#ffff00, #ff0000);
+	background-size: 200%;
+	width: calc(100% + 0px);
+	height: calc(100% + 0px);
+	z-index: -1;
+  animation: steam 80s linear infinite;
+
+}
+
+
+
+.description-home:after {
+	filter: blur(50px);
+}
+  
+
+.description-home p{
+text-justify: auto;
+ font-family: Pompiere;
+ font-size: 22px;
+ text-align: center;
+ padding: 5px 10px;
+ margin: 20px 0%;
+ 
+}
+
+/* RODAPE */
+.footer{
+ width: auto; 
+  height: auto;
+  left: 0;
+  background-color:rgba(247, 243, 10, 0.801);
+  bottom: o;
+
+}
+
+
+.footer #endereco{
+color: black;
+font-family: 'Buda', cursive;
+font-size: 22px;
+text-decoration: none;
+padding: 10px 20px;
+border-radius: 3px;
+text-align: center;
+}
+
+/* ICONES RODAPE */
+.midias{
+
+max-width: 100%;
+  height: auto;
+  width: 100%;
+
+}
+
+
+.midias ul {
+    list-style: none;
+    margin: 0 40%;
+    padding: 20px 5px;
+  
+
+}
+
+
+
+.midias ul li a{
+font-size: 20px;
+text-decoration: none;
+padding: 13px 15px;
+font-weight: bold;
+
+}
+
+
+
+.footer .fa-facebook {
+background-color: rgba(102, 178, 241, 0.486);
+  color: black;
+  border-color: black;
+    border-radius: 60%;
+    border-style: solid;
+    border-width: 1px ;
+
+}
+
+.footer .fa-twitter {
+  background: rgb(250, 181, 117);
+  color: black;
+  border-color: black;
+    border-radius: 60%;
+    border-style: solid;
+    border-width: 1px ;
+
+}
+
+.footer .fa-google {
+background-color: rgba(102, 178, 241, 0.486);
+  color: black;
+  border-color: black;
+    border-radius: 60%;
+    border-style: solid;
+    border-width: 1px ;
+
+}
+
+.footer .fa-instagram {
+  background: rgb(250, 181, 117);
+  color: black;
+  border-color: black;
+    border-radius: 60%;
+    border-style: solid;
+    border-width: 1px ;
+
+}
+
+.footer #copright{
+font-size: 22px;
+font-family: Reenie Beanie;
+background-color: rgba(12, 11, 11, 0.979);
+margin-top: 40px;
+text-align: center;
+color: gold;
+}
+
+
+/* DIVISÃO DA PAGINA */
+
+ .heading  {
+	padding-bottom:0px;
+    text-align:center;
+	max-width:100%;
+	margin:5% auto;
+	padding-top:0px;
+}
+
+.heading img{
+     width: 20%;
+    height: auto;
+}
+
+
+/* Aqui começa a parte de links internos */
+.links{
+display: flex;
+margin: 5% 0px;
+background:rgba(180, 183, 240, 0.404);
+height: auto;
+width: 100%;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+
+
+
+
+#links-1 , #links-2 {
+    position: relative;
+    text-align: center;
+    margin: 5% 4%;
+    padding: 0 60px;
+
+}
+
+.links img{
+      max-width: 100%;
+   height: auto;
+    width: 220px;
+    border-radius: 50%;
+    border-right: #00ff00;
+        border-left: #2abd31;
+        border-bottom: rgba(223, 46, 46, 0.815);
+        border-top: #4a357aa4;
+        border-width: 3px;
+        border-style: double;
+    padding: 3px 3px;
+}
+.links-text{
+  position: absolute;
+  bottom: 85px;
+  left: 125px;
+}
+
+.links a{
+  color: black;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.links a:hover{
+  color: #0c0b0ba8;
+  list-style: none;
+   margin: 0;
+  padding: 0;
+}
+
+
+/* IMAGENS COM TRANSIÇÃO */
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.face img{
+    width: 450px;
+  height: 281px;
+    box-shadow: 0px 1px 5px 2px rgba(202, 59, 16, 0.918), 0 10px 10px 0 rgba(202, 59, 16, 0.918);
+
+}
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px 10px;
+  color: black;
+  text-align: center;
+  background: rgba(180, 183, 240, 0.404);
+  font-family: pompiere;
+  font-size: 20px;
+  border-style:double;
+  border-width: 2px;
+  border-color: black;
+  margin: 0px 0px;
+}
+
+.face.back p{
+    padding: 12px 10px;
+    font-weight: bold;
+
+}
+
+#f1_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1.8s linear;
+
+}
+
+
+/* Formularios */
+
+/* NOTAS  FEEDBACK/AUTOR */
+blockquote {
+	letter-spacing: 1px;
+    margin:5% 0%;
+    text-align: right;
+	padding:10px 80px 10px;
+	position:relative;
+	font-family: Pompiere;
+	font-size:20px;
+	border:0;
+}
+
+blockquote cite {
+	color:#cc580c;
+	display:block;
+	margin-top:5px;
+    text-align:right;
+    font-size: 20px;
+    font-weight: bold;
+}
+blockquote cite:before {
+    content: "\2014 \2009";
+    
+}
